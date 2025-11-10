@@ -6,6 +6,10 @@ Our primary model family, Encodon, uses masked language modeling over codons wit
 
 The checkpoints can also be found on NGC [here](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara/models/nv_codonfm_encodon).
 
+## Note
+
+This repository has been refactored so it can be installed (locally) as a pip package. Oddly, the original repo used the src/ directory both as a source directory and also as a python package. Some changes were made to accomodate this. Once installed, it can be imported via `import codonfm.src.etc`.
+
 
 ## Methodology and Results
 
